@@ -5,6 +5,7 @@ import { HeroesRoutes } from '../heroes';
 import { LoginPage } from '../auth';
 import { PrivateRoute } from "./PrivateRoute";
 import { PublicRoute } from "./PublicRoute";
+import { HomePage } from "../ui/pages/HomePage";
 
 
 export const routes = () => createBrowserRouter([
@@ -14,7 +15,6 @@ export const routes = () => createBrowserRouter([
             <PrivateRoute>
                 <HeroesApp />
             </PrivateRoute>,
-        errorElement: <ErrorPage />,
         children: HeroesRoutes
     },
     {

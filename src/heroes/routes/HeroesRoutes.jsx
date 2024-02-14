@@ -21,6 +21,10 @@ export const HeroesRoutes = [
     {
         path: '/hero/:id',
         element: <HeroPage />
+    },
+    {
+        path: '*',
+        element:<HomePage />
     }
 ]
 
