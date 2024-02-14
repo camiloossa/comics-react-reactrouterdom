@@ -1,9 +1,11 @@
 
- export const HomePage = () => {
+export const HomePage = () => {
   return (
-    <div className="contenedor">
-        <h1>Aplicacion de Heroes App</h1> 
+
+    <div className="principal-heroes">
+      <h1 className="principal-heroes__titulo">Heroes App</h1>
     </div>
+
   )
 }
 

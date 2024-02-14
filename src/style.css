@@ -41,6 +41,12 @@ img {
     display: block;
 }
 
+.contenedor {
+    max-width: 140rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Utilidades */
 
 
@@ -73,13 +79,13 @@ img {
     text-align: center;
     margin: 2rem 0;
     letter-spacing: -.3rem;
-    line-height: 0;
 }
 
 @media (min-width: 768px) { 
     .header__texto {
         font-size: 4rem;
         margin: 0;
+        line-height: 0;
     }
 }
 
@@ -167,4 +173,69 @@ img {
     font-size: 2rem;
     border-bottom: 1px solid var(--primario);
     line-height: 1.5;
+}
+
+
+/* Estilos al HomePage */
+.principal-heroes {
+    background-image: url(/public/img/img-heroes-principal.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: bottom;
+    height: 30rem;
+    margin: 4rem 0 0;
+    
+}
+
+@media (min-width: 490px) { 
+    .principal-heroes {           
+        background-size: 80%;
+        height: 32rem;
+        background-position: bottom;
+    }
+}
+
+@media (min-width: 600px) { 
+    .principal-heroes {           
+        background-size: 80%;
+        height: 35rem;
+        background-position: bottom;
+    }
+}
+
+@media (min-width: 768px) { 
+    .principal-heroes {   
+        display: flex;    
+        justify-content: center;    
+        align-items: end;
+        background-size: 80%;
+        height: 50rem;
+        background-position: center;
+    }
+}
+
+@media (min-width: 992px) { 
+    .principal-heroes {           
+        background-size: 70%;
+    }
+}
+
+.principal-heroes__titulo {
+    background-color: #d63e3ef5;
+    color:  var(--blanco);
+    padding: 3rem 4rem;
+    border-radius: 2rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 3rem;
+}
+
+@media (min-width: 768px) { 
+    .principal-heroes__titulo {
+        background-color: #d63e3ef5;
+        color:  var(--blanco);
+        padding: 3rem 15rem;
+        border-radius: 2rem;
+    }
 }

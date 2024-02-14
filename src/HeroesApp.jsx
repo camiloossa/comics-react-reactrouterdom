@@ -8,7 +8,7 @@ const HeroesApp = () => {
       <header className="header">
         <Navbar />
       </header>
-      <div className="container">
+      <div className="contenedor">
         <Outlet />
       </div>
     </>
