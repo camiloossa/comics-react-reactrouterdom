@@ -18,7 +18,9 @@ export const Navbar = () => {
         <div className='header__barra'>
             <div className="header__navegacion">
                 <div className="header__logo">                    
-                    <h1 className='header__texto'>Heroes <span className="header__texto--color">APP</span></h1>
+                    <Link to='/'>
+                        <h1 className='header__texto'>Heroes <span className="header__texto--color">APP</span></h1>
+                    </Link>
                 </div>
 
                 <nav className="navegacion">
