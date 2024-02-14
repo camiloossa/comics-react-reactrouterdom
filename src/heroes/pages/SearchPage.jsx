@@ -29,21 +29,20 @@ const SearchPage = () => {
       <div className='header-comics'>
         <img src="/img/icono-busqueda.png" className="header-comics__logo" alt="Icono marvel" />
         <h1 className="header-comics__titulo">Search</h1>
-      </div>
-      
+      </div>      
 
-      <div className="row">
-        <div className="col-5">
-          <h4>Searching</h4>
+      <div className="busqueda">
+        <div className="busqueda__caja">
+          <h3 className="busqueda__heading">Searching</h3>
 
-          <form onSubmit={onSearchSubmit}>
-            <input type="text" className=" form-control" placeholder="Search hero" name="searchText" autoComplete="off" value={searchText} onChange={onInputChange} />
-            <button className="btn btn-outline-primary mt-3"> Search</button>
+          <form onSubmit={onSearchSubmit} className='busqueda__form'>
+            <input type="text" className="busqueda__campo" placeholder="Search hero" name="searchText" autoComplete="off" value={searchText} onChange={onInputChange} />
+            <button className="busqueda__input"> Search</button>
           </form>
         </div>
 
-        <div className="col-7">
-          <h4>Results</h4>
+        <div className="busqueda__caja">
+          <h3 className="busqueda__heading">Results</h3>
           <hr />
 
 

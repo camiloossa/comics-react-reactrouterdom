@@ -1,5 +1,6 @@
 :root {
     --primario: #d63e3e;
+    --bg-fondo-btn: #bb3636;
     --blanco: #FFF;
     --negro: #000000;
     --bg-fondo: #2e2e2e;
@@ -48,7 +49,20 @@ img {
 }
 
 /* Utilidades */
+.alert {
+    font-size: 2.5rem;
+    padding: 3rem 0;
+    text-align: center;
+    border-radius: 1rem;
+}
 
+.alert-info {
+    background-color: rgba(183, 228, 236, 0.897);
+}
+
+.alert-danger {
+    background-color: rgb(235, 145, 145);
+}
 
 
 /* Estilos al Header */
@@ -268,3 +282,45 @@ img {
         font-size: 4.5rem;
     }
 }
+
+/* Estilos a la pagina de busqueda */
+.busqueda {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 3rem;
+
+}
+
+.busqueda__caja {
+}
+
+.busqueda__form {
+    
+}
+
+.busqueda__campo {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: .1rem solid #c5c2c2;
+    font-size: 2rem;
+}
+
+.busqueda__input {
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border-radius: .5rem;
+    background-color: var(--primario);
+    border: none;
+    color: var(--blanco);
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: 300ms;
+}
+
+.busqueda__input:hover {
+    background-color:  var(--bg-fondo-btn);
+}
+
