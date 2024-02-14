@@ -5,7 +5,9 @@ import { AuthProvider } from './auth/context';
 const HeroesApp = () => {
   return (
     <>
-      <Navbar />
+      <header className="header">
+        <Navbar />
+      </header>
       <div className="container">
         <Outlet />
       </div>
@@ -13,4 +15,4 @@ const HeroesApp = () => {
   )
 }
 
-export  { HeroesApp }
+export { HeroesApp }
