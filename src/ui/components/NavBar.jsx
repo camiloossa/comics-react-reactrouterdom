@@ -17,8 +17,7 @@ export const Navbar = () => {
     return (
         <div className='header__barra'>
             <div className="header__navegacion">
-                <div className="header__logo">
-                    <img className="header__img" src="/img/logo.png" alt="Logo Comics" />
+                <div className="header__logo">                    
                     <h1 className='header__texto'>Heroes <span className="header__texto--color">APP</span></h1>
                 </div>
 
