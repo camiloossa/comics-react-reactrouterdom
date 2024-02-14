@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+}
+
+.contenedor {
+    max-width: 1200rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Estilos al Error Page */
+.error-page {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .error-page {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55rem;
+    }
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+.contenido-error {
+    margin-left: 4rem;
+}
+
+.contenido-error h2 {
+    font-size: 4rem;
+    color: red;
+}
+
+.contenido-error p {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.texto-error {
+    margin-bottom: 2rem;
+}
+
+.contenido-error .main-page {
+    margin-top: 2rem;
+    background-color: red;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
