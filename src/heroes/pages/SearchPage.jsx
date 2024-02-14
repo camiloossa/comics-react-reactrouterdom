@@ -26,8 +26,11 @@ const SearchPage = () => {
 
   return (
     <>
-      <h1>Search</h1>
-      <hr />
+      <div className='header-comics'>
+        <img src="/img/icono-busqueda.png" className="header-comics__logo" alt="Icono marvel" />
+        <h1 className="header-comics__titulo">Search</h1>
+      </div>
+      
 
       <div className="row">
         <div className="col-5">

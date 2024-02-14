@@ -239,3 +239,32 @@ img {
         border-radius: 2rem;
     }
 }
+
+/* Estilos a la pagina de comics  */
+.header-comics {
+    display: flex;
+    align-items: center;
+    border-bottom: .1rem solid var(--primario);
+    margin: 3rem 0;
+}
+
+.header-comics__logo {
+    width: 20%;
+    margin-right: 2rem;
+}
+
+@media (min-width: 768px) { 
+    .header-comics__logo {
+        width: 8%;        
+    }
+}
+
+.header-comics__titulo {
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) { 
+    .header-comics__titulo {
+        font-size: 4.5rem;
+    }
+}

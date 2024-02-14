@@ -3,10 +3,12 @@ import { HeroList } from '../components';
 const MarvelPage = () => {
   return (
     <>
-        <h1>Marvel Comics</h1>  
-        <hr />
+      <div className='header-comics'>
+        <img src="/img/icono-marvel.png" className="header-comics__logo" alt="Icono marvel" />
+        <h1 className="header-comics__titulo">Comics</h1>
+      </div>
 
-        <HeroList publisher= 'Marvel Comics'  />
+      <HeroList publisher='Marvel Comics' />
     </>
   )
 }

@@ -3,12 +3,16 @@ import { HeroList } from '../components';
 const DcPage = () => {
   return (
     <>
-        <h1>DC Comics</h1>
-        <hr />
 
-        <HeroList publisher = 'DC Comics' /> 
+      <div className='header-comics'>
+        <img src="/img/icono-dc.png" className="header-comics__logo" alt="Icono marvel" />
+        <h1 className="header-comics__titulo">Comics</h1>
+      </div>
+     
+
+      <HeroList publisher='DC Comics' />
     </>
   )
 }
 
-export  { DcPage }
+export { DcPage }
