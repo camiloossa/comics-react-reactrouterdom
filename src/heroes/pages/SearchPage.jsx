@@ -26,13 +26,13 @@ const SearchPage = () => {
 
   return (
     <div className='search'>
-      <div className='header-comics'>
+      <div className='header-comics animate__animated animate__fadeInDown'>
         <img src="/img/icono-busqueda.png" className="header-comics__logo" alt="Icono marvel" />
         <h1 className="header-comics__titulo">Search</h1>
       </div>      
 
       <div className="busqueda">
-        <div className="busqueda__caja">
+        <div className="busqueda__caja animate__animated animate__fadeInLeft">
           <h3 className="busqueda__heading">Searching</h3>
 
           <form onSubmit={onSearchSubmit} className='busqueda__form'>
@@ -41,7 +41,7 @@ const SearchPage = () => {
           </form>
         </div>
 
-        <div className="busqueda__caja">
+        <div className="busqueda__caja animate__animated animate__fadeInRight">
           <h3 className="busqueda__heading">Results</h3>   
           
           {

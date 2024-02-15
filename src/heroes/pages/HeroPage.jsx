@@ -16,9 +16,9 @@ const HeroPage = () => {
   }
 
   return (
-    <div className="heroe-page">
+    <div className="heroe-page ">
       <div className="heroe-page__img">
-        <img src={`/heroes/${id}.jpg`} class="heroe-page__img-heroe" alt={hero.superhero} />
+        <img src={`/heroes/${id}.jpg`} className="heroe-page__img-heroe" alt={hero.superhero} />
       </div>
 
       <div className="heroe-page__caja">
