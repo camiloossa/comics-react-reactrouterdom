@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import {  createHashRouter } from "react-router-dom";
 
 import { HeroesApp } from "../";
 import { HeroesRoutes } from '../heroes';
@@ -7,7 +7,7 @@ import { PrivateRoute } from "./PrivateRoute";
 import { PublicRoute } from "./PublicRoute";
 
 
-export const routes = () => createBrowserRouter([
+export const routes = () => createHashRouter([
     {
         path: "/",
         element: 

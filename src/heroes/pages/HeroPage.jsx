@@ -15,10 +15,12 @@ const HeroPage = () => {
     return <Navigate to={`/${publisher[0]}`} />
   }
 
+  const heroImg = `./heroes/${id}.jpg`;
+
   return (
     <div className="heroe-page ">
       <div className="heroe-page__img">
-        <img src={`./heroes/${id}.jpg`} className="heroe-page__img-heroe" alt={hero.superhero} />
+        <img src={heroImg} className="heroe-page__img-heroe" alt={hero.superhero} />
       </div>
 
       <div className="heroe-page__caja">
