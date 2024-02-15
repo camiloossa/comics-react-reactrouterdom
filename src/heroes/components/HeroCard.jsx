@@ -8,7 +8,7 @@ export const HeroCard = ({ heroData }) => {
         <div className="card">
             <div className="card__contenido">
 
-                <img src={`heroes/${id}.jpg`} className="card__img" alt={superhero} />
+                <img src={`./heroes/${id}.jpg`} className="card__img" alt={superhero} />
 
                 <div className="card__body">
                     <h4 className="card__title">{superhero}</h4>

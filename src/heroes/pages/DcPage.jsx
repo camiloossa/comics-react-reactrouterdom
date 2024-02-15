@@ -5,7 +5,7 @@ const DcPage = () => {
     <>
 
       <div className='header-comics'>
-        <img src="/img/icono-dc.png" className="header-comics__logo" alt="Icono marvel" />
+        <img src="./img/icono-dc.png" className="header-comics__logo" alt="Icono marvel" />
         <h1 className="header-comics__titulo">Comics</h1>
       </div>
      
