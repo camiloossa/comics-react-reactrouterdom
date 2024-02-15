@@ -238,7 +238,7 @@ img {
 
 /* Estilos al HomePage */
 .principal-heroes {
-    background-image: url(./public/img/img-heroes-principal.jpg);
+    background-image: url(./img/img-heroes-principal.jpg);
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: bottom;
