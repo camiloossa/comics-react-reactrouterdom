@@ -11,6 +11,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    height: 100%;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -20,6 +21,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.8;
     margin: 0;
+    height: 100%;
 }
 h1, h2, h3 {
     font-weight: 900;
@@ -43,6 +45,12 @@ img {
     display: block;
 }
 
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
 .contenedor {
     max-width: 140rem;
     width: 90%;
@@ -285,11 +293,18 @@ img {
 }
 
 /* Estilos a la pagina de busqueda */
-.busqueda {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    gap: 3rem;
 
+.busqueda {
+    margin: 2rem 0;
+}
+
+@media (min-width: 768px) { 
+    .busqueda {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        gap: 3rem;
+    
+    }
 }
 
 .busqueda__caja {
@@ -555,4 +570,23 @@ img {
 
 .heroe-page__btn:hover {
     box-shadow:  3px 3px 3px 0px rgba(74,74,74,1);
+}
+
+/* Estilos al Footer */
+.footer {
+    background-color: var(--bg-fondo);
+}
+
+.footer__texto {
+    margin: 0;
+    color: var(--blanco);
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.footer__textp--color {
+    color: var(--primario);
+    font-weight: 700;
+
 }

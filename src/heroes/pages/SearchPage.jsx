@@ -42,10 +42,8 @@ const SearchPage = () => {
         </div>
 
         <div className="busqueda__caja">
-          <h3 className="busqueda__heading">Results</h3>
-          <hr />
-
-
+          <h3 className="busqueda__heading">Results</h3>   
+          
           {
             (q === '')
             &&
