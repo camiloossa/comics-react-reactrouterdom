@@ -1,7 +1,8 @@
-import { useReducer } from 'react';
+import { useLayoutEffect, useReducer } from 'react';
 import { AuthContext } from './AuthContext';
 import { authReducer } from './authReducer';
 import { types } from '../types/types';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -14,7 +15,10 @@ const init = () => {
     
 }
 
+
 export const AuthProvider = ({ children }) => { 
+
+   
 
     const [ authState, dispatch ] = useReducer( authReducer, {}, init );
 

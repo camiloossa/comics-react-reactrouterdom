@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import { HeroesApp, ErrorPage } from "../";
+import { HeroesApp } from "../";
 import { HeroesRoutes } from '../heroes';
 import { LoginPage } from '../auth';
 import { PrivateRoute } from "./PrivateRoute";
