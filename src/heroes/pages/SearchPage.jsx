@@ -25,7 +25,7 @@ const SearchPage = () => {
   }
 
   return (
-    <>
+    <div className='search'>
       <div className='header-comics'>
         <img src="/img/icono-busqueda.png" className="header-comics__logo" alt="Icono marvel" />
         <h1 className="header-comics__titulo">Search</h1>
@@ -71,7 +71,7 @@ const SearchPage = () => {
       </div>
 
 
-    </>
+    </div>
   )
 }
 
