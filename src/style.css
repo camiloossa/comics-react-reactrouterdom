@@ -221,7 +221,7 @@ img {
 .header__logout::before {
     content: '';
     display: flex;
-    background-image: url(img/logout.png);
+    background-image: url(../img/logout.png);
     background-repeat: no-repeat;
     background-size: 80%;
     margin: 0 auto;

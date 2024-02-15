@@ -10,7 +10,6 @@ const LoginPage = () => {
   const onLogin = () => {
 
     const lastPath = localStorage.getItem('lastPath') || '/';
-    console.log(lastPath);
 
     login('Camilo Ossa');
     navigate(lastPath, { replace: true });
