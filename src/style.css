@@ -73,6 +73,46 @@ img {
     background-color: rgb(235, 145, 145);
 }
 
+/* Estilos al Login */
+.login__grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.login__titulo {
+    font-size: 8rem;
+}
+
+.login__img {
+    flex: 1;
+}
+
+.login__acces {
+    flex: 1;
+    height: 30rem;
+}
+
+.login__btn {
+    padding: 1rem 10rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: #273B7A;
+    color: var(--blanco);
+    transition-property: all;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.login__btn:hover {
+    background-color: var(--blanco);
+    border: .2rem solid #273B7A;
+    color: #273B7A;
+}
+
 
 /* Estilos al Header */
 .header {

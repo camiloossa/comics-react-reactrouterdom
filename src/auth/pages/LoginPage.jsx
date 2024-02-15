@@ -4,7 +4,7 @@ import { AuthContext } from "../context/AuthContext";
 
 const LoginPage = () => {
 
-  const { login } = useContext( AuthContext );
+  const { login } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const onLogin = () => {
@@ -17,11 +17,17 @@ const LoginPage = () => {
   }
 
   return (
-    <div className="container mt-5">
-        <h1>Login</h1>
-        <hr />
+    <div className="login contenedor">
+      <div className="login__grid">
+        <img src="/img/img-login.jpg" className="login__img" alt="Login" />
 
-        <button className="btn btn-info btn-lg px-5" onClick={ onLogin }>Login</button>
+        <div className="login__acces">
+          <h1 className="login__titulo">Login</h1>
+
+          <button className="login__btn" onClick={onLogin}>Login</button>
+        </div>
+      </div>
+
     </div>
   )
 }
