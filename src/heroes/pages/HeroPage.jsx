@@ -18,7 +18,7 @@ const HeroPage = () => {
   return (
     <div className="row mt-5">
         <div className="col-sm-4 col-12 animate__animated animate__fadeInLeft animate__faster">
-          <img src={`/assets/heroes/${ id }.jpg`} className="img-thumbnail " alt={ hero.superhero } />
+          <img src={`/heroes/${ id }.jpg`} className="img-thumbnail " alt={ hero.superhero } />
         </div>
 
         <div className="col-sm-8 col-12 animate__animated animate__fadeInRight animate__faster">
